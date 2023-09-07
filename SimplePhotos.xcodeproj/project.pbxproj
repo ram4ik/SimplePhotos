@@ -11,6 +11,9 @@
 		5E82165F2AA9B9BB0024DBEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E82165E2AA9B9BB0024DBEC /* ContentView.swift */; };
 		5E8216612AA9B9BD0024DBEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8216602AA9B9BD0024DBEC /* Assets.xcassets */; };
 		5E8216642AA9B9BD0024DBEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8216632AA9B9BD0024DBEC /* Preview Assets.xcassets */; };
+		5E82166C2AA9BA030024DBEC /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E82166B2AA9BA030024DBEC /* Photo.swift */; };
+		5E82166E2AA9BA520024DBEC /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E82166D2AA9BA520024DBEC /* ApiCall.swift */; };
+		5E8216702AA9BC1C0024DBEC /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E82166F2AA9BC1C0024DBEC /* PhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		5E8216602AA9B9BD0024DBEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E8216632AA9B9BD0024DBEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E8216652AA9B9BD0024DBEC /* SimplePhotos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimplePhotos.entitlements; sourceTree = "<group>"; };
+		5E82166B2AA9BA030024DBEC /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		5E82166D2AA9BA520024DBEC /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		5E82166F2AA9BC1C0024DBEC /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				5E82165C2AA9B9BB0024DBEC /* SimplePhotosApp.swift */,
 				5E82165E2AA9B9BB0024DBEC /* ContentView.swift */,
+				5E82166B2AA9BA030024DBEC /* Photo.swift */,
+				5E82166F2AA9BC1C0024DBEC /* PhotoView.swift */,
+				5E82166D2AA9BA520024DBEC /* ApiCall.swift */,
 				5E8216602AA9B9BD0024DBEC /* Assets.xcassets */,
 				5E8216652AA9B9BD0024DBEC /* SimplePhotos.entitlements */,
 				5E8216622AA9B9BD0024DBEC /* Preview Content */,
@@ -139,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E82166C2AA9BA030024DBEC /* Photo.swift in Sources */,
 				5E82165F2AA9B9BB0024DBEC /* ContentView.swift in Sources */,
+				5E82166E2AA9BA520024DBEC /* ApiCall.swift in Sources */,
+				5E8216702AA9BC1C0024DBEC /* PhotoView.swift in Sources */,
 				5E82165D2AA9B9BB0024DBEC /* SimplePhotosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
